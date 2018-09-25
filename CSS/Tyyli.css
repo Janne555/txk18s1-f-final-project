@@ -1,4 +1,6 @@
-body {font-family: Arial, Helvetica, Sans-serif;}
+p.italic {
+    font-style: italic;
+}
 p {color: green;}
 .kuva1 {
     border-radius: 50%;
