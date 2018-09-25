@@ -19,7 +19,7 @@ function passWord() {
       history.go(-1);
     if (pass.toLowerCase() == "letmein") {
       alert('You Got it Right!');
-      window.open('www.wikihow.com');
+      window.open('https://www.youtube.com/watch?v=uEYRZE9JcFA');
       break;
     }
     testV+=1;
