@@ -1,6 +1,6 @@
 #kartta {height:400px; width:100%;}
-p.italic {
-    font-style: italic;
+p {
+    font-family: "Georgia";
 }
 p {color: green;}
 .kuva1 {
@@ -17,5 +17,15 @@ p {color: green;}
 
     padding: 10px 20px;
 }
+h1 {
 
+    display: block;
+    font-size: 7em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+}
 
