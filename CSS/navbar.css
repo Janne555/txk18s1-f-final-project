@@ -1,0 +1,27 @@
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+.nav_content {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #ff66ff 0%, #99ccff 100%);
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+.nav_item {
+    text-align: center;
+    margin: auto 0 auto 0;
+    padding: 0 10px 0 10px;
+}
+
+.nav_item a {
+    text-decoration: none;
+}

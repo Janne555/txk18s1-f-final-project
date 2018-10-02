@@ -1,112 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/Tyyli.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-          crossorigin=""/>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"/>
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-            integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-            crossorigin=""></script>
-    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <meta charset="UTF-8">
-    <title>Nasevatyönimi</title>
+    <title>Kuppikakkuklubi</title>
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/slideshow.css">
 </head>
 <body>
-<div id="otsikko">
-    <h1>Placeholder</h1>
-</div>
-<div id="valikko">
-
-</div>
-<div id="teksti">
-    <p>
-        Lorem ipsum dolor sit amet, egestas ligula urna.<br>
-        Nullam sed wisi erat facilisi auctor,<br>
-        nec quam eu mollis sed quam odio,<br>
-        lobortis ultricies,<br>
-        fringilla dolor interdum leo a.<br>
-        Suspendisse ipsum volutpat nec dui, a a,<br>
-        aliquam pellentesque eros suscipit varius mollis placerat.<br>
-        Mondimentum sagittis volutpat sit,<br>
-        molestie quis fugiat vivamus turpis etiam,<br>
-        vel leo, lectus velit.<br>
-        Orci volutpat aliquam.<br>
-        Molestie lectus, in ut non.<br>
-        Lorem distinctio vitae eget id egestas.<br>
-        Pellentesque sed sed rutrum,<br>
-        hac magna vulputate fusce nec,<br>
-        magna hymenaeos velit,<br>
-        augue sed a dapibus consequat,<br>
-        hymenaeos fusce pulvinar ligula. Pharetra non.<br>
-        Tincidunt metus dui ante justo,<br>
-        tempor euismod elementum elit at tristique at,<br>
-        etiam nascetur quisque pede luctus ut.
-    </p>
-</div>
-<div id="teksti2">
-    <p>
-        Lorem ipsum dolor sit amet, egestas ligula urna.<br>
-        Nullam sed wisi erat facilisi auctor,<br>
-        nec quam eu mollis sed quam odio,<br>
-        lobortis ultricies,<br>
-        fringilla dolor interdum leo a.<br>
-        Suspendisse ipsum volutpat nec dui, a a,<br>
-        aliquam pellentesque eros suscipit varius mollis placerat.<br>
-        Condimentum sagittis volutpat sit,<br>
-        molestie quis fugiat vivamus turpis etiam,<br>
-        vel leo, lectus velit.<br>
-        Orci volutpat aliquam.<br>
-        Molestie lectus, in ut non.<br>
-        Lorem distinctio vitae eget id egestas.<br>
-        Pellentesque sed sed rutrum,<br>
-        hac magna vulputate fusce nec,<br>
-        magna hymenaeos velit,<br>
-        augue sed a dapibus consequat,<br>
-        hymenaeos fusce pulvinar ligula. Pharetra non.<br>
-        Tincidunt metus dui ante justo,<br>
-        tempor euismod elementum elit at tristique at,<br>
-        etiam nascetur quisque pede luctus ut.
-    </p>
-</div>
-<div id="kartta"></div>
-
-<div id="video">
-</div>
-
-<div class="polaroid container"  id="kuva1">
-    <img src="http://placekitten.com/200/300">
-    <p>kissa 1</p>
-</div>
-
-<div id="kuva2">
-    <img src="http://placekitten.com/200/303">
-</div>
-<div id="kuva3">
-    <img src="http://placekitten.com/204/302">
-</div>
-
-
-
-<iframe width="500" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
-</iframe>
-
-
-    <div id="kuva4">
-        <img width="500" height="345" src="kuvat/programmer-in-rich-nation.jpg">
+<nav>
+    <div class="nav_content">
+        <div class="logo">
+            <a href="index.html">
+                <img src="kuvat/Vanilla-Pink-Cupcake.svg">
+            </a>
+        </div>
+        <div class="nav_item">
+            <a href="">Eka</a>
+        </div>
+        <div class="nav_item">
+            <a href="">Toka</a>
+        </div>
+        <div class="nav_item">
+            <a href="">Kolmas</a>
+        </div>
+        <div class="nav_item">
+            <a href="">Neljäs</a>
+        </div>
+        <div class="nav_item">
+            <a href="">Viides</a>
+        </div>
     </div>
-<FORM>
-    <input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
+</nav>
+<section>
+    <div class="content">
+        <div class="slideshow-container">
 
-<div class="w3-content w3-section" style="max-width:500px">
-    <img class="mySlides" src="kuvat/programmer-in-rich-nation.jpg" style="width:100%">
-    <img class="mySlides" src="http://placekitten.com/204/302" style="width:100%">
-    <img class="mySlides" src="kuvat/programmer-in-rich-nation.jpg" style="width:100%">
-</div>
-    <script src="JS/Javascript.js"></script>
+            <div class="slides fade">
+                <div id="current_number" class="numbertext">1 / 5</div>
+                <img id="current_picture" src="kuvat/assorted-assortment-baked-1236680.jpg"/>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a id="slideshow_button_prev" class="prev">&#10094;</a>
+            <a id="slideshow_button_next" class="next">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+</section>
+
+<script src="JS/slideshow.js" type="application/javascript"></script>
 </body>
 </html>
