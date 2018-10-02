@@ -1,0 +1,26 @@
+
+.sisalto {display:flex; flex-direction:row; justify-content: center;
+}
+.klassi{
+margin:auto;
+}
+img {
+    border-radius: 50%;
+}
+#tekijat {
+    margin-top:300px;
+}
+h1 {
+
+    display: block;
+    font-size: 5em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+}
+p {
+    font-family: "Georgia", sans-serif;
+}
