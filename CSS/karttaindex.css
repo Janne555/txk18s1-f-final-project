@@ -8,6 +8,9 @@ body {
 .container {
     min-height: 100%;
     position:relative;
+    padding:0;
+    padding-bottom:85px;
+
 }
 
 nav {
@@ -20,12 +23,13 @@ main {
     flex-wrap: wrap;
 }
 
-footer {
+#footer {
     position: absolute;
     bottom: 0;
     height: 60px;
     background: #ff66ff;
-    min-width: 100%;
+    width: 100%;
+    display: flex;
 }
 
 .card {
@@ -34,7 +38,9 @@ footer {
     margin: 25px;
     border-radius: 1%;
 }
-
+p {
+    color:black;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -64,10 +70,6 @@ li a:hover {
     height: 324px;
 }
 
-img {
-    width: 576px;
-    height: 324px;
-}
 
 .logo {
     width: 50px;
@@ -98,8 +100,23 @@ img {
         height: auto;
     }
 }
-.kartta {
-    width:500px;
+#kartta {
     height:500px;
     display:flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 10px 10px 10px;
     }
+
+#karttateksti {
+    font-family: Georgia;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
