@@ -104,3 +104,11 @@ img {
     height:500px;
     display:flex;
     }
+h1 {
+    font-size: 3em;
+    margin-top:-5px;
+}
+p {
+    font-size: 3em;
+
+}
