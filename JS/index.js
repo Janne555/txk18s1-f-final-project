@@ -26,3 +26,20 @@ setInterval(function() {
     showSlide(currentSlide);
 }, 5000);
 
+const url = "https://aws.random.cat/meow";
+const catPic = document.getElementById("catpic");
+
+function setCatPic() {
+    fetch(url)
+        .then(function (reply) {
+            return reply.json();
+        })
+        .then(function (reply) {
+            catPic.setAttribute("src", reply.file);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+}
+
+setCatPic();
