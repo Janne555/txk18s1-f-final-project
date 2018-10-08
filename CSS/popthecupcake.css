@@ -1,0 +1,21 @@
+h1, h2 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.game {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+#cupcake {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
