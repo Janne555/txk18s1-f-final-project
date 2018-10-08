@@ -1,0 +1,22 @@
+/** {box-sizing:border-box}*/
+
+img {
+    width: 100%;
+}
+
+#slideshow {
+    margin-top: 50px;
+}
+
+.content {
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+#current_picture {
+}
