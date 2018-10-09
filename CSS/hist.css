@@ -65,45 +65,9 @@ li a.nav_item:hover {
     height: 730px;
 }
 
-img {
-    width: 576px;
-    height: 324px;
-}
 
-.logo {
-    width: 50px;
-    height: 50px;
-}
 
-@media only screen and (max-width: 600px) {
-    main {
-        display: block;
-    }
 
-    .small {
-        margin: auto;
-        width: 95%;
-        height: auto;
-    }
-
-    video {
-        height: auto;
-    }
-
-    .card {
-        margin: 15px 0 0 0;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-.kartta {
-    width:500px;
-    height:500px;
-    display:flex;
-}
 h1 {
     font-size: 6em;
     margin-top:-5px;
