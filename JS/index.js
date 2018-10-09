@@ -22,9 +22,13 @@ function showSlide(n) {
     nextSlide();
 }
 
-setInterval(function() {
-    showSlide(currentSlide);
-}, 5000);
+try {
+    setInterval(function () {
+        showSlide(currentSlide);
+    }, 5000);
+} catch (e) {
+    console.log(e);
+}
 
 const url = "https://aws.random.cat/meow";
 const catPic = document.getElementById("catpic");
