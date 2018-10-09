@@ -10,6 +10,14 @@ L.routing.control({
   routeWhileDragging:true,
   geocoder: L.Control.Geocoder.nominatim()
 }).addTo(karttani);
+var popup = L.popup();
+function onMapClick(e) {
+  popup
+  .setLatLng(e.latlng)
+  .setContent("Koordinaatit ovat" + e.latlng.toString())
+  .openOn(karttani);
+}
+karttani.on('click', onMapClick);
 const ekberg = L.marker([60.164703,24.937845]).addTo(karttani);
 const oba = L.marker([60.164348,24.929277]).addTo(karttani);
 const metkacafe = L.marker([60.163417, 24.930807]).addTo(karttani);
