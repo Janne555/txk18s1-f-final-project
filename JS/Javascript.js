@@ -63,3 +63,11 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+function navifunktio() {
+  var x = document.getElementById("topnav");
+  if (x.className === "navi") {
+    x.className += " responsive";
+  } else {
+    x.className = "navi";
+  }
+}
