@@ -1,11 +1,115 @@
-h1 {
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+.container {
+    min-height: 100%;
+    position:relative;
+}
+
+nav {
+}
+
+main {
+    padding: 10px 10px 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    background: #ff66ff;
+    min-width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin: 25px;
+    border-radius: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, #ff66ff 0%, #99ccff 100%);
+}
+
+li {
+    float: left;
+}
+
+.nav_item {
     display: block;
-    font-size: 7em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+    color: white;
     text-align: center;
+    padding: 14px 16px 26px;
+    text-decoration: none;
+}
+
+li a.nav_item:hover {
+    background-color: #99ccff;
+}
+
+.small {
+    width: 1000px;
+    height: 730px;
+}
+
+img {
+    width: 576px;
+    height: 324px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: block;
+    }
+
+    .small {
+        margin: auto;
+        width: 95%;
+        height: auto;
+    }
+
+    video {
+        height: auto;
+    }
+
+    .card {
+        margin: 15px 0 0 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.kartta {
+    width:500px;
+    height:500px;
+    display:flex;
+}
+h1 {
+    font-size: 6em;
+    margin-top:-5px;
+    font-family: Georgia;
+}
+p {
+    font-size: 2em;
+
 }
