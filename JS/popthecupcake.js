@@ -9,7 +9,6 @@ function pop() {
     let x = Math.floor(Math.random() * width);
     let y = Math.floor(Math.random() * height);
 
-    console.log("x: " + x + " y: " + y);
     cupcake.classList.add("popped");
     cupcake.classList.remove("appear");
 
