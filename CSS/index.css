@@ -54,9 +54,13 @@ li {
     text-align: center;
     padding: 14px 16px 26px;
     text-decoration: none;
+    font-size: 30px;
 }
 
 li a.nav_item:hover {
+    background-color: #99ccff;
+}
+a.nav_item:active {
     background-color: #99ccff;
 }
 
