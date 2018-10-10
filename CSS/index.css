@@ -110,7 +110,7 @@ a.nav_item:active {
     font-size: 0.6em;
 }
 
-img {
+.picture {
     width: 576px;
     height: 324px;
 }
