@@ -15,9 +15,7 @@
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <link rel="stylesheet" type="text/css" href="CSS/index.css">
-    <link rel="stylesheet" type="text/css" href="CSS/Tyyli.css">
     <link rel="stylesheet" type="text/css" href="CSS/karttaindex.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="container">
@@ -31,8 +29,9 @@
             <li><a class="nav_item" href="reseptilaskin.html">Reseptimuunnin</a></li>
             <li><a class="nav_item" href="popthecupcake.html">Peli</a></li>
             <li><a class="nav_item" href="tekijätiedot.html">Tekijät</a></li>
-            <a href="javascript:void(0);" class="icon" onclick="navifunktio()">
-                <i class="fa fa-bars"></i></a>
+            <a href="javascript:void(0)" class="icon" onclick="navifunktio()">
+                <img class="menu_pic" src="kuvat/menu.svg">
+            </a>
         </ul>
     </nav>
     <div id="kartta">
@@ -41,9 +40,13 @@
         <h3>Kartassa näkyy muutama lähistöllä oleva kahvila</h3>
         <p>Näistä tunnetuin on kahvila Ekberg Bulevardilla. Se on sijainnut samassa paikassa jo vuodesta 1915</p>
     </div>
-    <div id="footer">
-
-    </div>
+    <footer>
+        <div>
+            <p>
+                &copy; Eelis, Eemil & Janne. Metropolia Ammattikorkeakoulu 2018
+            </p>
+        </div>
+    </footer>
 </div>
 <script src="JS/Javascript.js"></script>
 </body>
