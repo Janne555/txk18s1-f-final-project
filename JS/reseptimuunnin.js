@@ -57,3 +57,11 @@ function muunna() {
 function pyoristaKahteen(floatti) {
     return (Math.round((floatti * 100)) / 100);
 }
+function navifunktio() {
+    var x = document.getElementById("topnav");
+    if (x.className === "navi") {
+    x.className += " responsive";
+    } else {
+        x.className = "navi";
+  }
+}
