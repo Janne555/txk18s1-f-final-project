@@ -6,6 +6,7 @@ margin:auto;
 }
 img {
     border-radius: 50%;
+    height: 200px;
 }
 #tekijat {
     margin-top:0px;
@@ -20,6 +21,7 @@ h1 {
 }
 .klassi p {
     font-family: "Georgia", sans-serif;
+    text-align: center;
 }
 
 .logo {
