@@ -3,6 +3,17 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: Arial, "sans-serif";
+    background-color: #ffe6ff;
+}
+
+h1, h2, h3, h4 {
+    font-family: Verdana, "sans-serif";
+}
+
+h1 {
+    padding-top: 10px;
+    overflow: hidden;
 }
 
 .container {
@@ -27,6 +38,8 @@ footer {
     height: 60px;
     background: #ff66ff;
     min-width: 100%;
+    text-align: center;
+    overflow: hidden;
 }
 
 .card {
@@ -34,6 +47,7 @@ footer {
     padding: 10px;
     margin: 25px;
     border-radius: 1%;
+    background-color: white;
 }
 
 ul {
@@ -42,6 +56,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background: linear-gradient(to right, #ff66ff 0%, #99ccff 100%);
+    height: 75px;
 }
 
 li {
@@ -52,9 +67,13 @@ li {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px 26px;
+    padding: 0 20px 0 0;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.8em;
+}
+
+li a.nav_item {
+    line-height: 75px;
 }
 
 li a.nav_item:hover {
@@ -64,9 +83,31 @@ a.nav_item:active {
     background-color: #99ccff;
 }
 
+.menu_pic {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
 .small {
     width: 576px;
     height: 324px;
+}
+
+.wide {
+    width: 100%;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, "serif";
+    overflow: hidden;
+}
+
+.info span {
+    font-size: 0.6em;
 }
 
 img {
@@ -107,24 +148,26 @@ img {
     width:500px;
     height:500px;
     display:flex;
-    }
-h1 {
-    font-size: 3em;
-    margin-top:-5px;
 }
-p {
-    font-size: 3em;
 
-}
 nav .icon{
     display:none;
 }
+
 @media screen and (max-width: 721px) {
     nav li:not(:first-child) {display:none;}
     nav a.icon{
         float:right;
         display:block;
 
+    }
+
+    ul {
+        height: auto;
+    }
+
+    li a.nav_item {
+        line-height: normal;
     }
 }
 @media screen and (max-width: 721px) {
