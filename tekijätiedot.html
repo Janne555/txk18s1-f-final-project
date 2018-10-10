@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CSS/index.css">
     <link rel="stylesheet" type="text/css" href="CSS/tekijatiedot.css">
     <meta charset="UTF-8">
@@ -8,51 +9,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<nav id="topnav" class="navi">
-    <ul>
-        <li>
-            <a href="index.html"><img class="logo" src="kuvat/Vanilla-Pink-Cupcake.svg"></a>
-        </li>
-        <li><a class="nav_item" href="Historiaa.html">Historiaa</a></li>
-        <li><a class="nav_item" href="karttasivu.html">Kartta</a></li>
-        <li><a class="nav_item" href="reseptilaskin.html">Reseptimuunnin</a></li>
-        <li><a class="nav_item" href="popthecupcake.html">Peli</a></li>
-        <li><a class="nav_item" href="tekijätiedot.html">Tekijät</a></li>
-        <a href="javascript:void(0)" class="icon" onclick="navifunktio()">
-            <img class="menu_pic" src="kuvat/menu.svg">
-        </a>
-    </ul>
-</nav>
-<h1> Tekijät</h1>
+<div class="container">
+    <nav id="topnav" class="navi">
+        <ul>
+            <li>
+                <a href="index.html"><img class="logo" src="kuvat/Vanilla-Pink-Cupcake.svg"></a>
+            </li>
+            <li><a class="nav_item" href="Historiaa.html">Historiaa</a></li>
+            <li><a class="nav_item" href="karttasivu.html">Kartta</a></li>
+            <li><a class="nav_item" href="reseptilaskin.html">Reseptimuunnin</a></li>
+            <li><a class="nav_item" href="popthecupcake.html">Peli</a></li>
+            <li><a class="nav_item" href="tekijätiedot.html">Tekijät</a></li>
+            <a href="javascript:void(0)" class="icon" onclick="navifunktio()">
+                <img class="menu_pic" src="kuvat/menu.svg">
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <div class="header">
+            <h1>Tekijät</h1>
+        </div>
 
-<section id="tekijat">
-    <div class="sisalto">
-<div class="klassi">
-
-<img src="http://placekitten.com/200/300">
-    <p>Eelis</p>
-</div>
-
-<div class="klassi">
-    <img src="kuvat/finalproject-janne.jpeg">
-    <p>Janne</p>
-</div>
-
-<div class="klassi">
-    <img src="http://placekitten.com/204/302">
-    <p>Emil</p>
-</div>
-        <footer>
-            <div>
-                <p>
-                    &copy; Eelis, Emil & Janne. Metropolia Ammattikorkeakoulu 2018
-                </p>
+        <div class="rivi">
+            <div class="klassi">
+            <img class="profiilikuvat" src="http://placekitten.com/200/300">
+                <p>Eelis</p>
             </div>
-        </footer>
-    </div>
-</section>
+
+            <div class="klassi">
+                <img class="profiilikuvat" src="kuvat/finalproject-janne.jpeg">
+                <p>Janne</p>
+            </div>
+
+            <div class="klassi">
+                <img class="profiilikuvat" src="http://placekitten.com/204/302">
+                <p>Emil</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>
+                &copy; Eelis, Emil & Janne. Metropolia Ammattikorkeakoulu 2018
+            </p>
+        </div>
+    </footer>
+</div>
 
 
 <script src="JS/Javascript.js"></script>
+<script src="JS/navi.js"></script>
 </body>
 </html>
