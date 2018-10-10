@@ -26,7 +26,7 @@ const theboomroom = L.marker([60.161805, 24.937433]).addTo(karttani);
 const roberts = L.marker([60.163048, 24.929428]).addTo(karttani);
 ekberg.bindPopup("<h2>Ekberg</h2><img src='kuvat/ekberg.jpg' height='163px' width='250px'>").openPopup;
 oba.bindPopup("<h2>Cafe Cafferino Oba</h2><img src='kuvat/oba.jpg' height='200px' width='200px'>").openPopup;
-metkacafe.bindPopup("<h2>Metka Cafe</h2>").openPopup;
+metkacafe.bindPopup("<h2>Metka Cafe</h2><img src='kuvat/metka.jpg' height='200px' width='200px'>").openPopup;
 kulmakahvila.bindPopup("<h2>Kulma Kahvila</h2><img src='kuvat/kulmakahvila.jpg' height='250px' width='250px'>").openPopup;
 theboomroom.bindPopup("<h2>The Boom Room</h2><img src='kuvat/boomroom.jpg' height='200px' width='200px'>").openPopup;
 roberts.bindPopup("<h2>Robert's Coffee</h2><img src=kuvat/robertscoffee.jpg height='150px' width='300px'> ").openPopup;
