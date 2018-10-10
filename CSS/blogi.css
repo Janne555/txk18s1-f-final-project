@@ -1,0 +1,35 @@
+#main {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    height: 100vh;
+    margin: 50px;
+}
+
+#side {
+    flex: 0 0 20%;
+    margin-right: 50px;
+}
+
+.rivi {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.rivi:hover {
+    background: #ffe6ff;
+}
+
+.rivi h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    flex: 1;
+}
+
+.card {
+    margin: 25px;
+}

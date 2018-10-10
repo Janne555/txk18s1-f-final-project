@@ -139,7 +139,7 @@ a.nav_item:active {
         margin: 15px 0 0 0;
     }
 
-    img {
+    .picture {
         width: 100%;
         height: auto;
     }
@@ -154,7 +154,7 @@ nav .icon{
     display:none;
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 810px) {
     nav li:not(:first-child) {display:none;}
     nav a.icon{
         float:right;
@@ -170,7 +170,7 @@ nav .icon{
         line-height: normal;
     }
 }
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 810px) {
     .navi.responsive {position: relative;}
     .navi.responsive a.icon{
         position:absolute;

@@ -1,12 +1,16 @@
 .big h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top:-5px;
     font-family: Verdana, "sans-serif";
     text-align: center;
 }
+
 .big p {
     font-size: 1.5em;
     margin: 10px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
 }
 
 .big {
@@ -16,5 +20,25 @@
 @media screen and (max-width: 600px) {
     .big {
         width: 100%;
+    }
+}
+
+.kuppikakkukuva {
+    width: 250px;
+    float: left;
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .big p {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .kuppikakkukuva {
+        float: none;
     }
 }
