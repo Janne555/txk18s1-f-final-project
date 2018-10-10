@@ -26,37 +26,7 @@ p {
     font-family: "Georgia", sans-serif;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(to right, #ff66ff 0%, #99ccff 100%);
-    scroll-padding-inline-start: 0;
-}
 
-li {
-    float: left;
-}
-
-.nav_item {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px 26px;
-    text-decoration: none;
-    font-size:30px;
-}
-
-li a.nav_item:hover {
-    background-color: #99ccff;
-}
-footer {
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    background: #ff66ff;
-    min-width: 100%;
 }
 .logo {
     width: 70px;
