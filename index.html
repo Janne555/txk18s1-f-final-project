@@ -6,7 +6,6 @@
     <title>Kuppikakkuklubi</title>
     <link rel="stylesheet" type="text/css" href="CSS/index.css">
     <link rel="icon" href="kuvat/Vanilla-Pink-Cupcake.svg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="container">
@@ -21,7 +20,8 @@
             <li><a class="nav_item" href="popthecupcake.html">Peli</a></li>
             <li><a class="nav_item" href="tekijätiedot.html">Tekijät</a></li>
             <a href="javascript:void(0)" class="icon" onclick="navifunktio()">
-                <i class="fa fa-bars"></i></a>
+                <img class="menu_pic" src="kuvat/menu.svg">
+            </a>
         </ul>
     </nav>
     <main>
@@ -31,6 +31,15 @@
             <p> Sivusto on kaikille kuppikakkufanaatikoille ja heidän ystävilleen.</p>
 
 
+        <div class="wide">
+            <h1>Kuppikakkuklubi</h1>
+        </div>
+        <div class="card small info">
+            <p>
+                Kuppikakkuklubi on kaikille kuppikakkuintoilijoille ja heidän ystävilleen!
+                <br><br>
+                <span>PS: Kuppikakut eivät ole muffinsseja!</span>
+            </p>
         </div>
         <video width="576" height="324" controls class="card small">
             <source src="video/kuppikakku.mp4" type="video/mp4">
@@ -38,14 +47,18 @@
         </video>
         <div class="card small">
             <img id="current_picture" src="kuvat/assorted-assortment-baked-1236680.jpg"/>
+            <img class="picture" id="current_picture" src="kuvat/assorted-assortment-baked-1236680.jpg"/>
         </div>
         <div class="card small">
             <img id="catpic">
+            <img class="picture" id="catpic">
         </div>
     </main>
     <footer>
         <div>
-
+            <p>
+                &copy; Eelis, Eemil & Janne. Metropolia Ammattikorkeakoulu 2018
+            </p>
         </div>
     </footer>
 </div>
